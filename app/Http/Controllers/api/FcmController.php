@@ -24,7 +24,7 @@ class FcmController extends Controller
         $fields = array (
             "notification"  => array(
                 //"title"   => "iSearch Message",
-                "text"  => "$send_message",
+                "body"  => "$send_message",
                 "sound" => "default",
                 "badge" => $badge,
                 "click_action" => "$target_page" // should match to your intent filter
